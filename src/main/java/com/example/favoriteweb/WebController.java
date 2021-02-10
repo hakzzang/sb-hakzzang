@@ -9,6 +9,6 @@ public class WebController {
     @GetMapping("/")
     @ResponseBody
     public String main(){
-        return "<a href=\"https://11st.co.kr\">11st.co.kr</a>";
+        return "<a href=\"https://11st.co.kr\">11st.co.kr</a>"+"<br>"+"<a href=\"https://developer.android.com/\">최고사이트</a>";
     }
 }
